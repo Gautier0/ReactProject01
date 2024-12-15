@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 
 const App: React.FC = () => {
-    const name: String = 'React';
-
+    const [name, setName] = useState<string>('React');
     return (
         <h1>Bonjour, {name} !</h1>
     )
